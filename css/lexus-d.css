@@ -1,0 +1,441 @@
+/*==============================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 100;
+    color: #333;
+}
+
+
+/*============================================*/
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.red {
+    color: red;
+}
+
+[class^="icon"] {
+    background-size: 100%;
+}
+
+.icon_rwd {
+    background-image: url(../img/rwd-2.png);
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.65em;
+}
+
+h2 {
+    font-weight: 300;
+    line-height: 1.4em;
+}
+
+.name {
+    padding: 0 3%;
+    margin: 30px 0;
+    position: fixed;
+    overflow: hidden;
+}
+
+.name::after {
+    content: '';
+    width: 100%;
+    background-image: url(../img/congruent_outline.png);
+    background-attachment: fixed;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.name h1 {
+    font-size: 3.8em;
+    letter-spacing: 0.25em;
+    position: relative;
+    font-weight: 100;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.name p {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.name h4 {
+    font-weight: 300;
+    padding-left: 15px;
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+.name h6 {
+    font-weight: 400;
+}
+
+.nabox {
+    max-width: 90px;
+    min-width: 90px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.name .stag {
+    display: inline-block;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    border-bottom: solid 1px #333;
+    padding-bottom: 4px;
+    color: #333;
+}
+
+.na {
+    display: table;
+}
+
+.info {
+    border-left: solid 3px #d9d525;
+    text-align: left;
+    float: left;
+    clear: both;
+}
+
+.skil {
+    padding: 0 15px;
+    border-left: solid 3px #25d0d9;
+    text-align: left;
+    float: left;
+    clear: both;
+}
+
+.contentflame {
+    padding: 20px;
+    background-image: url(../img/congruent_outline.png);
+    background-attachment: fixed;
+}
+
+.contentflame::before, .contentflame::after {
+    content: '';
+    width: 100%;
+    background-image: url(../img/congruent_outline.png);
+    background-attachment: fixed;
+    height: 20px;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+}
+
+.contentflame::before {
+    top: 0;
+}
+
+.contentflame::after {
+    bottom: 0;
+}
+
+.lexus-d ul, .lexus-d li {
+    list-style: none;
+}
+
+.lexus-d img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.contentinner {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+}
+
+.lexus-d {
+    width: 60%;
+    float: right;
+    margin: 20px 0;
+}
+
+.lexus-d li {
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    padding: 25px 3%;
+    min-height: 270px;
+    border-top: dashed 1px #ddd;
+}
+
+.lexus-d li:first-child {
+    border-top: none;
+}
+
+.lexus-d li .title {
+    width: 50%;
+    float: left;
+    margin-bottom: 25px;
+    padding-left: 38px;
+    position: relative;
+}
+
+.lexus-d li .photo {
+    width: 50%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.photo a {
+    display: block;
+    position: relative;
+    border: solid 1px #ddd;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+
+/*============================================*/
+
+.photo a [class^="bg_"] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+    color: #fff;
+}
+
+.photo a:hover [class^="bg_"] {
+    opacity: 1;
+}
+
+.photo a [class^="bg_"] .go {
+    font-size: 7em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -55px;
+    opacity: 1;
+}
+
+.bg_red {
+    background: rgba(223, 94, 92, 0.6);
+}
+
+.bg_blue {
+    background: rgba(0, 135, 205, 0.6);
+}
+
+.bg_yellow {
+    background: rgba(255, 196, 0, 0.6);
+}
+
+.bg_green {
+    background: rgba(21, 193, 159, 0.6);
+}
+
+
+/*============================================*/
+
+[class^="link_"] {
+    font-size: 14px;
+    color: #fff;
+    display: inline-table;
+    font-weight: bold;
+    padding: 4px 7px;
+    line-height: 20px;
+    transition: all .15s ease-in-out;
+    position: absolute;
+    width: 10px;
+    top: -9px;
+    left: 0;
+    opacity: 1;
+}
+
+[class^="link_"]:hover {
+    opacity: 0.8;
+}
+
+.link_red {
+    background: #df5e5c;
+    border: solid 1px #df5e5c;
+}
+
+.link_blue {
+    background: #0087cd;
+    border: solid 1px #0087cd;
+}
+
+.link_yellow {
+    background: #ffc400;
+    border: solid 1px #ffc400;
+}
+
+.link_green {
+    background: #00c29f;
+    border: solid 1px #00c29f;
+}
+
+
+/*============================================*/
+
+.copyright {
+    color: #f2f2f2;
+    text-align: center;
+    display: block;
+}
+
+.videoBox {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.videoBoxinner {
+    position: relative;
+    z-index: 9999;
+    top: 35px;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.close {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #333;
+    background: rgb(21, 193, 159);
+    font-size: 3em;
+    z-index: 99999;
+    padding: 6px 9px 15px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 840px) {
+    .lexus-d {
+        margin: 12px 0;
+    }
+    .lexus-d li {
+        padding: 35px 15px;
+    }
+    .lexus-d li .title {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 15px;
+        padding-right: 45px;
+    }
+    .lexus-d li .photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 0 0 10px 0;
+    }
+    [class^="link_"] {
+        left: inherit;
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .name::after {
+        display: block;
+    }
+    .lexus-d {
+        width: 100%;
+        float: none;
+    }
+    .lexus-d li {
+        border-top: solid 1px #d9256c;
+    }
+    .name {
+        padding: 25px 15px 70px 100px;
+        margin: 0;
+        position: relative;
+        text-align: center;
+    }
+    .na {
+        float: none;
+        position: relative;
+        left: -75px;
+        margin: 0 auto;
+    }
+    .info {
+        max-width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 180px;
+        float: none;
+        margin-top: -45px;
+        border-left: solid 3px #ffffff;
+    }
+    .skil {
+        max-width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 180px;
+        float: none;
+    }
+    .name h1 {
+        max-width: 95px;
+        min-width: 95px;
+    }
+    .name p {
+        color: red;
+    }
+    .lexus-d {
+        margin: 0;
+    }
+}

@@ -1,0 +1,152 @@
+
+/*	reset css
+==============================================*/
+* { margin:0; padding:0; }
+ul, li { list-style: none; }
+a { text-decoration: none; color: #333; }
+/*============================================*/
+
+.contentflame ul.lexus-d img {
+	width: 100%;
+	vertical-align: middle;
+}
+.contentflame ul.lexus-d {
+	overflow: hidden;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.contentflame ul.lexus-d li {
+	width: 50%;
+	float: left;
+	margin: 30px 0;
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+    padding: 0 3%;
+    min-height: 270px;
+}
+.contentflame ul.lexus-d li:first-child h1 {
+    font-family: "Nobel","Arial",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 0.25em;
+    line-height: 43px;
+    margin-left: 0;
+    margin-right: auto;
+    color: #333;
+    width: 260px;
+}
+.contentflame ul.lexus-d li:first-child h2 {
+    font-family: "Swift","Georgia",serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 35px 0;
+}
+.contentflame ul.lexus-d li:first-child img {
+	display: none;
+}
+.contentflame ul.lexus-d li:first-child div:nth-child(2),
+.contentflame ul.lexus-d li:first-child div:nth-child(3) {
+	display: none;
+}
+.contentflame ul.lexus-d li div:nth-child(1),
+.ff {
+	width: 50%;
+	float: left;
+	margin-bottom: 25px;
+}
+.contentflame ul.lexus-d li div:nth-child(2),
+.gg {
+	width: 50%;
+	float: right;
+	padding: 10px;
+    box-sizing: border-box;
+}
+.contentflame ul.lexus-d li div:nth-child(3) {
+	padding: 0 0 25px 0;
+}
+.contentflame ul.lexus-d li a {
+	position: absolute;
+	bottom: 0;
+	text-transform: uppercase;
+	font-family: "Nobel","Arial",sans-serif;
+	font-size: 12px;
+    letter-spacing: 0.1em;
+	color: #888;
+	border-bottom: solid 1px #888;
+}
+.contentflame ul.lexus-d li a:hover {
+	color: #dd5f5f;
+	border-bottom: solid 1px #dd5f5f; 
+}
+.contentflame ul.lexus-d li h1 {
+    font-family: "Nobel","Arial",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #333;
+    letter-spacing: 0.2em;
+}
+.contentflame ul.lexus-d li h2 {
+    text-transform: uppercase;
+    font-family: "Nobel","Arial",sans-serif;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+}
+.contentflame ul.lexus-d li p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+    font-family: "Swift","Georgia",serif;
+}
+/*@media screen and (max-width: 1200px) {
+	.contentflame ul.lexus-d li:first-child h1 {
+		font-size: 25px;
+  		letter-spacing: 0.1em;
+  		line-height: 30px;
+	}
+	.contentflame ul.lexus-d li:first-child h2 {
+	    font-size: 18px;
+	    line-height: 25px;
+	    margin: 18px 0;
+	    width: 100%;
+	}
+}
+@media screen and (max-width: 840px) {
+	.contentflame ul.lexus-d li {
+		padding: 0 15px;
+  		max-width: 500px;
+  		box-sizing: border-box;
+	}
+	.contentflame ul.lexus-d li div:nth-child(1) {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.contentflame ul.lexus-d li div:nth-child(2) {
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding: 0 0 10px 0;
+	}
+	.contentflame ul.lexus-d li a {
+	    left: 15px;
+	}
+	.contentflame ul.lexus-d li:first-child h1 {
+	    text-align: center;
+	    width: 100%;
+	    padding-top: 50%;
+	}
+	.contentflame ul.lexus-d li div:nth-child(3) {
+	    padding: 0 0 35px 0;
+	}
+}
+
+
+
+
