@@ -23,6 +23,14 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- 將這個標記放在標頭中，或放在內文結尾標記前面。 -->
+   <script src="https://apis.google.com/js/platform.js" async defer>
+     {lang: 'zh-TW', parsetags: 'explicit'}
+   </script>
+
+   <!-- 將這個「轉譯呼叫」(render call) 放在合適的地方。 -->
+   <script type="text/javascript">gapi.plusone.go();</script>
 </head>
 
 <body>
@@ -202,6 +210,8 @@
       </div>
     </div>
     <small class="copyright mt_20">Huang,Hsuan © bonsan.bs@gmail.com</small>
+    <!-- 在您要顯示「+1 按鈕」的位置放上這個標記。 -->
+    <div class="g-plusone" data-size="medium" data-href="https://polahuang.github.io/2016_neux_pola/"></div>
   </div>
 </body>
 
