@@ -25,12 +25,14 @@
     <![endif]-->
 
     <!-- 將這個標記放在標頭中，或放在內文結尾標記前面。 -->
-    <script src="https://apis.google.com/js/platform.js" async defer>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script>
         {
             lang: 'zh-TW',
             parsetags: 'explicit'
         }
     </script>
+
 
 
 </head>
@@ -57,9 +59,12 @@
                     </div>
                     <!-- 在您要顯示「+1 按鈕」的位置放上這個標記。 -->
                     <div id="googlebtn">
-                     <div class="g-plusone" data-size="medium" data-href="https://polahuang.github.io/2016_neux_pola/"></div>
+                        <div class="g-plusone" data-size="medium" data-href="https://polahuang.github.io/2016_neux_pola/"></div>
                     </div>
-
+                    <!-- 將這個「轉譯呼叫」(render call) 放在合適的地方。 -->
+                    <script type="text/javascript">
+                        gapi.plusone.go('googlebtn');
+                    </script>
                     <h6><span>photoshop &nbsp</span><i>&#x02605;</i><i>&#x02605;</i><i>&#x02605;</i><i>&#x02605;</i></h6>
                     <h6><span>illustrator &nbsp</span><i>&#x02605;</i><i>&#x02605;</i><i>&#x02605;</i><i>&#x02605;</i></h6>
                     <h6><span>html 5 &nbsp</span><i>&#x02605;</i><i>&#x02605;</i><i>&#x02605;</i></h6>
@@ -223,10 +228,7 @@
 
     </div>
 
-    <!-- 將這個「轉譯呼叫」(render call) 放在合適的地方。 -->
-    <script type="text/javascript">
-        gapi.plusone.go('googlebtn');
-    </script>
+
 
 </body>
 
